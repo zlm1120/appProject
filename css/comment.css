@@ -1,0 +1,102 @@
+/*首页 共同的头部样式*/
+.headerWrappers header.mui-bar {
+  height: 88px;
+  background-color: #FFFFFF !important;
+}
+.headerWrappers header.mui-bar .mui-icon {
+  line-height: 88px;
+  padding-top: 0px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  color: #000000 !important;
+}
+.headerWrappers header.mui-bar h1.mui-title {
+  overflow: hidden;
+  left: 75px !important;
+}
+.headerWrappers header.mui-bar h1.mui-title .imglogo {
+  float: left;
+}
+.headerWrappers header.mui-bar h1.mui-title a {
+  float: left;
+  display: block;
+  height: 88px;
+  line-height: 88px;
+  text-align: center;
+  margin-right: 56px;
+}
+.headerWrappers header.mui-bar h1.mui-title a img {
+  vertical-align: middle;
+}
+.headerWrappers header.mui-bar h1.mui-title a:nth-child(2) {
+  margin-left: 25px;
+}
+/*头部样式有背景色*/
+.bgheader header.mui-bar {
+  height: 88px;
+  background-color: #164f33 !important;
+}
+.bgheader header.mui-bar h1 {
+  font-size: 32px;
+  color: #FFFFFF;
+  font-family: '[FZHTJW -GB1...';
+  line-height: 88px;
+}
+.bgheader header.mui-bar .mui-icon {
+  font-size: 32px;
+  color: #FFFFFF !important;
+  padding: 0px !important;
+  line-height: 88px !important;
+  margin: 0px !important;
+}
+/*首页的焦点轮播图*/
+.sliderid .mui-slider img {
+  height: 356px !important;
+}
+.sliderid .mui-slider-indicator {
+  text-align: center !important;
+}
+.sliderid .mui-slider-indicator .mui-indicator {
+  width: 20px !important;
+  height: 20px !important;
+}
+/*首页的九宫格*/
+.grideNine .mui-grid-view.mui-grid-9 {
+  background-color: #FFFFFF !important;
+}
+.grideNine .mui-table-view.mui-grid-view .mui-table-view-cell .mui-media-body {
+  font-family: "黑体";
+  font-size: 20px !important;
+  color: #232323 !important;
+  word-wrap: break-word;
+  word-break: normal;
+  text-overflow: clip !important;
+  overflow: auto !important;
+  height: auto !important;
+  line-height: normal !important;
+}
+.grideNine .mui-grid-view.mui-grid-9 .mui-table-view-cell {
+  height: 146px;
+  width: 159px;
+}
+.grideNine .mui-table-view-cell > a:not(.mui-btn) {
+  white-space: normal !important;
+  overflow: auto !important;
+}
+/*首页的脚部*/
+.footerWrappers .mui-table-view-chevron .mui-table-view-cell {
+  padding-right: 0px !important;
+}
+.footerWrappers .mui-table-view-cell {
+  height: 80px;
+  line-height: 80px !important;
+  padding: 0px !important;
+  border-bottom: 1px solid #c3c2c2 !important;
+}
+.footerWrappers .mui-table-view-cell > a:not(.mui-btn) {
+  margin: 0px !important;
+  padding-left: 15px;
+  font-size: 22px !important;
+  color: #323232;
+  font-family: "黑体";
+}
